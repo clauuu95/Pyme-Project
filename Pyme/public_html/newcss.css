@@ -1,0 +1,214 @@
+html, body{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+.negro{
+    color: #666666;
+    font-size: 60px;
+    display: flex;
+    width: 180px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+.blanco{
+    color: #ffffff;
+    font-size: 30px;
+    display: flex;
+    width: 70px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    background-color: #666666;
+}
+#logo{
+    display: flex;
+    flex-direction: row;
+    background-color: #336699;
+}
+#burger{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    color: #ffffff; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #313947;
+}
+#burger #bg a{
+    color: #ffffff;
+    padding: 0 10px 0 10px;
+    text-decoration: none;
+}
+#bg div{
+    display: flex;
+    align-items: center;
+}
+#burger #bg{
+    width: auto;
+    font-family: Six Caps;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+}#bg div:hover{
+    height: 70px;
+    background-color: #666666;
+}
+#bg div a:hover{
+    background-color: #666666;
+    padding-top: 80px;
+}
+#bg div a:visited{
+    background-color: #666666;
+}
+#bg div:visited{
+    height: 70px;
+    background-color: #666666;
+}
+body{
+    color: #201A1B;
+    font-family: 'Open Sans', sans-serif;
+}
+.visibles{
+    font-family: Georgia,Times,Times New Roman,serif;
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    margin-top: 110px;
+    padding: 10px 0 10px 0;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.visibles div{
+    font-size: 20px;
+}
+.visibles .buscador input, span{
+    border: 1px solid #6D6D6D;
+}
+.visibles .buscador{
+    padding-top: 10px;
+}
+.bln{
+    text-decoration: none;
+    color: #6D6D6D;
+    text-align: center;
+}
+.colorNegro{
+    color: #000000;
+    display: flex;
+    flex-direction: row;
+}
+.cas{
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+.imagen{
+    width: 40px;
+    height: 40px;
+}
+.arreglo{
+    display: flex;
+    flex-direction: row;
+    width: 80px;
+    justify-content: space-between;
+}
+.class{
+    color: #333333;
+}
+.blog-post-title h4:after {
+    display: block;
+    width: 100px;
+    border-top: 1px double #4fb7ff;
+    margin: 5px 0;
+    content: "";
+}
+.secciones{
+    padding: 50px 70px 50px 70px;
+}
+article{
+    padding-bottom: 50px;
+}
+.centrado{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px;
+}
+#boxMaster{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-top: 20px;
+}
+#box1 img,#box2 img,#box3 img,#box4 img{
+    width: 50px;
+    height: 50px;
+}
+#box4{
+    background-color: #091219;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding: 30px;
+    border-radius: 15px;
+}
+#box3{
+    background-color: #10222C;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding: 30px;
+    border-radius: 15px;
+}
+#box2{
+    background-color: #0A4B75;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding: 30px;
+    border-radius: 15px;
+}
+#box1{
+    background-color: #0C6E95;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;padding: 30px;
+    border-radius: 15px;
+}
+.intro{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+#texto1{
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+#texto2{
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+#texto3{
+    display: none;
+    flex-direction: column;
+    text-align: center;
+}
+#texto4{
+    display: none;
+    flex-direction: column;
+    text-align: center;
+}
+.foto{
+    height: 200px;
+    width: 1000px;
+}
